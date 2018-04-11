@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 6c5bc6f4c82aa654a8a7b9014197623b
+timeCreated: 1521205903
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: B_wood01_body01
+    100002: B_wood01_body02
+    100004: B_wood01_body03
+    100006: B_wood01_L_foot01
+    100008: B_wood01_L_foot02
+    100010: B_wood01_L_foot03
+    100012: B_wood01_L_foot04
+    100014: B_wood01_L_hand01
+    100016: B_wood01_L_hand02
+    100018: B_wood01_L_hand03
+    100020: B_wood01_plane01
+    100022: B_wood01_plane02
+    100024: B_wood01_R_foot01
+    100026: B_wood01_R_foot02
+    100028: B_wood01_R_foot03
+    100030: B_wood01_R_foot04
+    100032: B_wood01_R_hand01
+    100034: B_wood01_R_hand02
+    100036: B_wood01_R_hand03
+    100038: D_wood01_all
+    100040: D_wood01_eye
+    100042: D_wood01_weight
+    100044: IK_wood01_L_foot01
+    100046: IK_wood01_L_foot02
+    100048: IK_wood01_R_foot01
+    100050: IK_wood01_R_foot02
+    100052: wood01
+    100054: wood01_att
+    100056: //RootNode
+    100058: wood_op
+    400000: B_wood01_body01
+    400002: B_wood01_body02
+    400004: B_wood01_body03
+    400006: B_wood01_L_foot01
+    400008: B_wood01_L_foot02
+    400010: B_wood01_L_foot03
+    400012: B_wood01_L_foot04
+    400014: B_wood01_L_hand01
+    400016: B_wood01_L_hand02
+    400018: B_wood01_L_hand03
+    400020: B_wood01_plane01
+    400022: B_wood01_plane02
+    400024: B_wood01_R_foot01
+    400026: B_wood01_R_foot02
+    400028: B_wood01_R_foot03
+    400030: B_wood01_R_foot04
+    400032: B_wood01_R_hand01
+    400034: B_wood01_R_hand02
+    400036: B_wood01_R_hand03
+    400038: D_wood01_all
+    400040: D_wood01_eye
+    400042: D_wood01_weight
+    400044: IK_wood01_L_foot01
+    400046: IK_wood01_L_foot02
+    400048: IK_wood01_R_foot01
+    400050: IK_wood01_R_foot02
+    400052: wood01
+    400054: wood01_att
+    400056: //RootNode
+    400058: wood_op
+    2300000: wood01_att
+    2300002: wood_op
+    3300000: wood01_att
+    3300002: wood_op
+    4300000: wood01
+    4300002: wood01_att
+    4300004: wood_op
+    7400000: wood_npc_walk
+    7400002: wood_npc_att
+    7400004: wood_npc_die
+    7400006: NPC_walk
+    7400008: NPC_att
+    7400010: NPC_die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: wood01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: NPC_walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: D_wood01_all
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_body02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_body03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01/B_wood01_L_hand02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01/B_wood01_L_hand02/B_wood01_L_hand03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01/B_wood01_R_hand02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01/B_wood01_R_hand02/B_wood01_R_hand03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye/B_wood01_plane01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye/B_wood01_plane01/B_wood01_plane02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/wood01_att
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02/B_wood01_L_foot03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02/B_wood01_L_foot03/B_wood01_L_foot04
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02/B_wood01_R_foot03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02/B_wood01_R_foot03/B_wood01_R_foot04
+        weight: 1
+      - path: D_wood01_all/IK_wood01_L_foot01
+        weight: 1
+      - path: D_wood01_all/IK_wood01_L_foot01/IK_wood01_L_foot02
+        weight: 1
+      - path: D_wood01_all/IK_wood01_R_foot01
+        weight: 1
+      - path: D_wood01_all/IK_wood01_R_foot01/IK_wood01_R_foot02
+        weight: 1
+      - path: D_wood01_all/wood_op
+        weight: 1
+      - path: wood01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: NPC_att
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: D_wood01_all
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_body02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_body03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01/B_wood01_L_hand02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01/B_wood01_L_hand02/B_wood01_L_hand03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01/B_wood01_R_hand02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01/B_wood01_R_hand02/B_wood01_R_hand03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye/B_wood01_plane01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye/B_wood01_plane01/B_wood01_plane02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/wood01_att
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02/B_wood01_L_foot03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02/B_wood01_L_foot03/B_wood01_L_foot04
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02/B_wood01_R_foot03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02/B_wood01_R_foot03/B_wood01_R_foot04
+        weight: 1
+      - path: D_wood01_all/IK_wood01_L_foot01
+        weight: 1
+      - path: D_wood01_all/IK_wood01_L_foot01/IK_wood01_L_foot02
+        weight: 1
+      - path: D_wood01_all/IK_wood01_R_foot01
+        weight: 1
+      - path: D_wood01_all/IK_wood01_R_foot01/IK_wood01_R_foot02
+        weight: 1
+      - path: D_wood01_all/wood_op
+        weight: 1
+      - path: wood01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: NPC_die
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: D_wood01_all
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_body02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_body03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01/B_wood01_L_hand02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_L_hand01/B_wood01_L_hand02/B_wood01_L_hand03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01/B_wood01_R_hand02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/B_wood01_R_hand01/B_wood01_R_hand02/B_wood01_R_hand03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye/B_wood01_plane01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/D_wood01_eye/B_wood01_plane01/B_wood01_plane02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_body01/wood01_att
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02/B_wood01_L_foot03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_L_foot01/B_wood01_L_foot02/B_wood01_L_foot03/B_wood01_L_foot04
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02/B_wood01_R_foot03
+        weight: 1
+      - path: D_wood01_all/D_wood01_weight/B_wood01_R_foot01/B_wood01_R_foot02/B_wood01_R_foot03/B_wood01_R_foot04
+        weight: 1
+      - path: D_wood01_all/IK_wood01_L_foot01
+        weight: 1
+      - path: D_wood01_all/IK_wood01_L_foot01/IK_wood01_L_foot02
+        weight: 1
+      - path: D_wood01_all/IK_wood01_R_foot01
+        weight: 1
+      - path: D_wood01_all/IK_wood01_R_foot01/IK_wood01_R_foot02
+        weight: 1
+      - path: D_wood01_all/wood_op
+        weight: 1
+      - path: wood01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
